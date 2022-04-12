@@ -6,9 +6,11 @@ import Hello from './Hello.js';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
+
+//added greeting property <p>{this.props.greeting}</p> in Hello.js (main app file)
 ReactDOM.render(
   <React.StrictMode>
-    <Hello />
+    <Hello greeting={'Hello React Ninja'} />
   </React.StrictMode>,
   document.getElementById('root')
 );
