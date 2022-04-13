@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 //import Card from './Card';
 import CardList from './CardList';
-import { robots } from './robots';
+import App from './App'
 
 
 //added greeting property <p>{this.props.greeting}</p> in Hello.js (main app file)
 ReactDOM.render(
   <React.StrictMode>
-    <CardList robots={robots} />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
